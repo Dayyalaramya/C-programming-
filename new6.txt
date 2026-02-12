@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+char a;
+printf("enter a letter:");
+scanf("%c",&a);
+int res=(a>='A'&&a<='Z');
+printf("The %c is uppercase letters %d",a,res);
+return 0;
+}
