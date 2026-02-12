@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+int a;
+printf("enter a number:");
+scanf("%d",&a);
+int res=(a>=-4&&a<=6);
+printf("The %d is range between -4 to 6 %d",a,res);
+return 0;
+}
