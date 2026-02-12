@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+char a;
+printf("enter a alphabet:");
+scanf("%c",&a);
+int upper=(a>='A'&&a<='Z');
+int lower=(a>='a'&&a<='z');
+int res=(upper||lower);
+printf("The %c is a alphabet %d",a,res);
+return 0;
+}
